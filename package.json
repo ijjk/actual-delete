@@ -1,0 +1,18 @@
+{
+  "name": "actual-delete",
+  "main": "./lib/actual-delete",
+  "version": "0.1.0",
+  "description": "Adds option to context menu in file tree to skip recycle or trash bin and actually deletes the entry. Works with nuclide package.",
+  "keywords": ["delete", "actual", "permanent"],
+  "activationCommands": {
+    "atom-workspace": "actual-delete:delete"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.1"
+  }
+}

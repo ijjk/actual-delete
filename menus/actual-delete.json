@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    ".tree-view .entry": [
+      {
+        "label": "Actual delete",
+        "command": "actual-delete:delete"
+      }
+    ]
+  }
+}
